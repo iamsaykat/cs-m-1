@@ -5,5 +5,40 @@
 
 .test{
     color: brown;
+    /* Cursor Change for hover any text  */
     cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;  
 }
+
+details{
+    margin-bottom: 50px;
+}
+
+
+/* Flex Started */
+
+.container{
+    display: flex;
+    /* Row wise center justify content */
+    justify-content: space-around;
+    /* Column wise center align items  */
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 150px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+
+
+
+
+
+/* Flex End */
