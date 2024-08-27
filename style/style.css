@@ -82,3 +82,38 @@
 .about-img{
     width: 300px;
 }
+/* Our services section started */
+
+.section-services{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 250px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.box-icon{
+    width: 50px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 15px;
+}
